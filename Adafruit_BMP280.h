@@ -192,6 +192,8 @@ public:
   uint8_t getStatus(void);
   uint8_t sensorID(void);
 
+  void takeForcedMeasurement(void);
+  
   float readTemperature();
   float readPressure(void);
   float readAltitude(float seaLevelhPa = 1013.25);

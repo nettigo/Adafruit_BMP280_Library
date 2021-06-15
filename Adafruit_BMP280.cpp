@@ -418,9 +418,8 @@ float Adafruit_BMP280::waterBoilingPoint(float pressure) {
 
 /*!
  *  @brief  Take a new measurement (only possible in forced mode)
- *  !!!todo!!!
  */
-/*
+
 void Adafruit_BMP280::takeForcedMeasurement()
 {
     // If we are in forced mode, the BME sensor goes back to sleep after each
@@ -436,7 +435,7 @@ void Adafruit_BMP280::takeForcedMeasurement()
                 delay(1);
     }
 }
-*/
+
 
 /*!
  *  @brief  Resets the chip via soft reset
